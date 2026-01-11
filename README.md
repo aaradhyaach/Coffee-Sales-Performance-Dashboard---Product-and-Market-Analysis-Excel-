@@ -45,7 +45,8 @@ To populate these missing fields, lookup-based data enrichment techniques were a
 
 XLOOKUP() was used to retrieve customer-related attributes (such as **Email, Customer Name, and Country**) by matching the **Customer ID between the Orders and Customers tables**. In some cases, IF() logic was incorporated to handle conditional mapping and ensure clean, readable outputs.
 
-![image.png](attachment:d76350a4-78ec-4c44-9ec5-39df8fef3697:image.png)
+<img width="1105" height="36" alt="image" src="https://github.com/user-attachments/assets/1154dc8e-0109-414b-aeb7-6ac9814cca19" />
+
 
 **Index Matching Example** 
 The INDEX() function was used to populate product-related attributes by matching **Product ID between the Orders and Products tables**. This same approach was applied consistently to populate **Coffee Type, Roast Type, Size, Unit Price, and Sales fields**.
