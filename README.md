@@ -61,7 +61,8 @@ The Loyalty Card column was populated using XLOOKUP between orders and customers
 
 ### **3.2 Entity Relationship Diagram**
 
-![image.png](attachment:c09c8aa4-a089-4f63-9ebb-e3c41839a3c2:image.png)
+<img width="1031" height="567" alt="image" src="https://github.com/user-attachments/assets/011fd69d-6753-41de-a466-cdf165d1639e" />
+
 
 This ERD represents a **star-schema–style sales data model** centered around an **Orders** fact table, with **Products** and **Customers** as dimension tables. It was built using Power BI.
 
@@ -86,34 +87,40 @@ After cleaning and enriching the Orders table, Pivot Tables were used to aggrega
     
     A Pivot Table grouped Order Date by month and year, with Sales aggregated by Coffee Type Name. This was visualized as a line chart to analyze trends and seasonality.
     
-    ![image.png](attachment:e0fbf510-1b35-4e32-aa81-b69211ef03ea:image.png)
+    <img width="1082" height="802" alt="image" src="https://github.com/user-attachments/assets/16ac041b-c6c1-46ff-8894-d4d1d3ae22bc" />
+
     
 - **Sales by Country:**
     
     A Pivot Table aggregated total Sales by Country and was visualized as a horizontal bar chart to compare market performance. 
     
-    ![image.png](attachment:b3bcc2a6-0faa-4a67-b126-2b88fedddeb4:image.png)
+    <img width="907" height="404" alt="image" src="https://github.com/user-attachments/assets/a92946c3-1956-4057-b9f3-76760e61fec1" />
+
     
 - **Top Five Customers by Sales:**
     
     A Pivot Table aggregated total Sales by Customer and was visualized as a horizontal bar chart to compare market performance. Then, the filter of Top 5 Sales value was used to visualize the Top 5 customers.
     
-    ![image.png](attachment:ab4e92a1-048c-4a92-9a26-2759bf448323:image.png)
+    <img width="913" height="395" alt="image" src="https://github.com/user-attachments/assets/7fcd9c77-08a5-4842-a50e-1fae87554b2b" />
+
     
 
 To improve usability and interactivity, **slicers** and a **timeline** were added:
 
 - **Slicers** allow users to filter the dashboard by attributes such as coffee type or country, enabling focused analysis on specific segments.
 
-![image.png](attachment:55ed5bc4-6af4-4d53-bc28-dba5d184eab6:image.png)
+<img width="318" height="164" alt="image" src="https://github.com/user-attachments/assets/495c35c6-7991-49e0-8fe5-40816a0792ad" />
+
 
 - The **timeline** enables users to view sales for selected time periods (e.g., specific months or years), making it easy to isolate trends within a given date range.
 
-![image.png](attachment:4959848a-2982-40cf-9d7a-2d4ed1250adf:image.png)
+<img width="817" height="125" alt="image" src="https://github.com/user-attachments/assets/db3c6df1-65a0-4a00-b549-9bdf378876e4" />
+
 
 The final dashboard then combines all components into a clean, executive-friendly layout with consistent formatting, clear labels, and currency formatting, allowing stakeholders to explore different sections of the data without modifying the underlying tables.
 
-![image.png](attachment:70970a93-defa-416c-8d91-4c1aa3f71de2:image.png)
+<img width="1481" height="757" alt="image" src="https://github.com/user-attachments/assets/614762d0-7d4d-4dfe-bbf5-098efed92c93" />
+
 
 ### 3.4 Skills Used
 
