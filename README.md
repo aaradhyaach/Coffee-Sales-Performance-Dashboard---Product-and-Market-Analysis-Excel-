@@ -48,7 +48,8 @@ XLOOKUP() was used to retrieve customer-related attributes (such as **Email, Cus
 <img width="1105" height="36" alt="image" src="https://github.com/user-attachments/assets/1154dc8e-0109-414b-aeb7-6ac9814cca19" />
 
 
-**Index Matching Example** 
+**Index Matching Example**
+
 The INDEX() function was used to populate product-related attributes by matching **Product ID between the Orders and Products tables**. This same approach was applied consistently to populate **Coffee Type, Roast Type, Size, Unit Price, and Sales fields**.
 
 <img width="960" height="41" alt="image" src="https://github.com/user-attachments/assets/a53da78a-4304-432e-96b6-ea74e83f1398" />
