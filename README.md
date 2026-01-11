@@ -51,11 +51,11 @@ XLOOKUP() was used to retrieve customer-related attributes (such as **Email, Cus
 **Index Matching Example** 
 The INDEX() function was used to populate product-related attributes by matching **Product ID between the Orders and Products tables**. This same approach was applied consistently to populate **Coffee Type, Roast Type, Size, Unit Price, and Sales fields**.
 
-![image.png](attachment:d3d67b28-5025-4700-a724-65171a4c06f6:5d190f0d-bfa8-45d5-a4aa-d2f49545f415.png)
+<img width="960" height="41" alt="image" src="https://github.com/user-attachments/assets/a53da78a-4304-432e-96b6-ea74e83f1398" />
 
 Similarly, the Sales Column was calcuated as a simple formula of:
 
-Sales =Unit Price * Quantity
+Sales = Unit Price * Quantity
 
 The Loyalty Card column was populated using XLOOKUP between orders and customers tables. And, the columns Coffee Type Name and Roast Type Name were used for better understanding of column values during visualization by using the IF() function.
 
